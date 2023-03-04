@@ -59,7 +59,7 @@ date_str = pd.Timestamp.today().strftime('%Y-%m-%d')
 email_message = MIMEMultipart()
 email_message['From'] = email_from
 email_message['To'] = email_to
-email_message['Subject'] = f'Report email from Python- {date_str}'
+email_message['Subject'] = f'Report email from Github mail-V3- {date_str}'
 
 # Attach the html doc defined earlier, as a MIMEText html content type to the MIME message
 email_message.attach(MIMEText(html, "html"))
