@@ -68,7 +68,6 @@ email_message.attach(MIMEText(html, "html"))
 import yfinance as yf
 import datetime
 import pandas as pd
-import sketch
 import plotly.express as px
 
 
