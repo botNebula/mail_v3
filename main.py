@@ -14,7 +14,7 @@ import pandas as pd
 html = '''
     <html>
         <body>
-            <h1>Daily S&P 500 prices report</h1>
+            <h1>4yrs NIFTYBEES.NS, AAPL 500 prices report</h1>
             <p>Hello, welcome to your report!</p>
             <img src='cid:NIFTYBEES.NS' width="700">
             <img src='cid:AAPL' width="700">
